@@ -16,6 +16,10 @@
 ```
   docker-compose up -d
 ```
+5. Reconstruir la base de datos
+```
+  /api/v2/seed
+```
 
 # Stack
 * MongoDB
