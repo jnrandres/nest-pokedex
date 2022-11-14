@@ -16,7 +16,9 @@
 ```
   docker-compose up -d
 ```
-5. Reconstruir la base de datos
+5. Clonar el archivo ```.env.template``` y renombrar la copia ```.env```
+6. Llenar las variables de entorno definidas en el ```.env```
+7. Reconstruir la base de datos
 ```
   /api/v2/seed
 ```
